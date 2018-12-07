@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/wrouesnel/postgres_exporter.svg?branch=master)](https://travis-ci.org/wrouesnel/postgres_exporter)
 [![Coverage Status](https://coveralls.io/repos/github/wrouesnel/postgres_exporter/badge.svg?branch=master)](https://coveralls.io/github/wrouesnel/postgres_exporter?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/wrouesnel/postgres_exporter)](https://goreportcard.com/report/github.com/wrouesnel/postgres_exporter)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fshuiqing05%2Fpostgres_exporter.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fshuiqing05%2Fpostgres_exporter?ref=badge_shield)
 
 # PostgreSQL Server Exporter
 
@@ -190,3 +191,7 @@ GRANT SELECT ON postgres_exporter.pg_stat_replication TO postgres_exporter;
 * To build release tar balls run `go run mage.go release`.
 * Build system is a bit temperamental at the moment since the conversion to mage - I am working on getting it
   to be a perfect out of the box experience, but am time-constrained on it at the moment.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fshuiqing05%2Fpostgres_exporter.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fshuiqing05%2Fpostgres_exporter?ref=badge_large)
